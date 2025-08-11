@@ -38,5 +38,29 @@ To run this project locally:
 1. Clone the repository  
    ```bash
    git clone https://github.com/nkatha1/futuristic-fashion-shop.git
+   Install dependencies
+   npm install
+Start the development server
+npm run dev
+Open your browser and visit http://localhost:5173
+
+Future Improvements
+User authentication and profiles
+
+Checkout/payment integration
+
+Product filtering and search
+
+Backend API integration for dynamic product data
+
+Improved accessibility features
+
+📫 Connect with Me
+Created with ❤️ by Patience Nkatha
+Check out more projects on my GitHub
+Follow me on LinkedIn
+Thank you for checking out Futuristic Fashion Shop! Feel free to ⭐ star the repo if you like it.
+
+
    cd futuristic-fashion-shop
 Install dependenciesInstall dependencies
