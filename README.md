@@ -17,6 +17,10 @@ Welcome to **Futuristic Fashion Shop** — a sleek, modern e-commerce React app 
 - State management with Zustand for lightning-fast updates  
 - Client-side routing with React Router for smooth navigation  
 - Deployed live on [Vercel](https://futuristic-fashion-shop.vercel.app/)
+
+- 🔗 Live Demo:** [https://futuristic-fashion-shop.vercel.app/](https://futuristic-fashion-shop.vercel.app/)
+
+- 
 - 
 
 ---
