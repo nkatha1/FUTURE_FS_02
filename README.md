@@ -1,71 +1,118 @@
 # Futuristic Fashion Shop 🚀👗
 
-Welcome to **Futuristic Fashion Shop** — a sleek, modern e-commerce React app showcasing futuristic gadgets and fashion.
+Welcome to **Futuristic Fashion Shop** — a sleek, modern **full-stack e-commerce** application showcasing futuristic fashion and gadgets.
 
-![Futuristic Fashion Shop](./screenshot.png)  
-*Screenshot preview of the app (replace with your actual screenshot)*
+![App Screenshot](./screenshot.png) <!-- Replace with actual screenshot path -->
 
 ---
 
 ## 🌟 Features
 
-- Browse a curated list of futuristic gadgets and fashion items  
-- Add products to the cart with real-time quantity updates  
-- Remove or adjust quantities for items in the cart  
-- View total price dynamically calculated  
-- Responsive design powered by Tailwind CSS  
-- State management with Zustand for lightning-fast updates  
-- Client-side routing with React Router for smooth navigation  
-- Deployed live on [Vercel](https://futuristic-fashion-shop.vercel.app/)
-
-- 🔗 Live Demo:** [https://futuristic-fashion-shop.vercel.app/](https://futuristic-fashion-shop.vercel.app/)
-
-- 
-- 
+- 🛍 Browse curated futuristic gadgets and fashion items
+- 🛒 Add products to cart with real-time quantity updates
+- ✏️ Adjust quantities or remove items from cart
+- 💸 View total price dynamically calculated
+- 📱 Fully responsive design powered by Tailwind CSS
+- ⚡ Fast global state management with Zustand
+- 🔀 Smooth client-side navigation via React Router
+- 🔧 Backend API using Node.js + Express (mock data)
+- 🌐 Live frontend deployed on Vercel
 
 ---
 
-## 🚀 Tech Stack
+## 🧱 Tech Stack
 
-- **React** — component-driven UI  
-- **Vite** — blazing-fast build tool  
-- **Zustand** — minimal and intuitive global state management  
-- **React Router** — declarative routing  
-- **Tailwind CSS** — utility-first styling for rapid UI development  
-- **Vercel** — seamless deployment and hosting
+### Frontend
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Vercel](https://vercel.com/) for deployment
+
+### Backend
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [JSON-based mock API](./backend/data/products.json)
 
 ---
 
-## 🔥 Getting Started
+## 🔗 Live Demo
 
-To run this project locally:
+👉 [https://futuristic-fashion-shop.vercel.app](https://futuristic-fashion-shop.vercel.app)
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/nkatha1/futuristic-fashion-shop.git
-   Install dependencies
-   npm install
-Start the development server
+---
+
+## 💻 Running the Project Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/nkatha1/FUTURE_FS_02.git
+
+2. Start the Backend
+cd backend
+npm install
 npm run dev
-Open your browser and visit http://localhost:5173
+# Runs on http://localhost:5000
 
-Future Improvements
-User authentication and profiles
+3. Start the Frontend
+In a new terminal tab:
+cd ../  # Go back to root
+npm install
+npm run dev
+# Runs on http://localhost:5173
+4. Frontend Will Fetch from Backend
 
-Checkout/payment integration
+Your frontend is set to proxy API requests to the backend (/api/products).
 
-Product filtering and search
+📁 Project Structure
 
-Backend API integration for dynamic product data
+FUTURE_FS_02/
+├── backend/
+│   ├── data/products.json
+│   ├── routes/products.js
+│   ├── server.js
+│   └── package.json
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── index.html
+└── package.json
+🛠️ Future Improvements
 
-Improved accessibility features
+🔐 User authentication and profile management
+
+💳 Checkout and payment gateway integration
+
+🔍 Product filtering, sorting, and search
+
+🧠 Connect to real database (MongoDB or PostgreSQL)
+
+♿ Enhanced accessibility support
 
 📫 Connect with Me
+
 Created with ❤️ by Patience Nkatha
-Check out more projects on my GitHub
-Follow me on LinkedIn
-Thank you for checking out Futuristic Fashion Shop! Feel free to ⭐ star the repo if you like it.
 
+💼 LinkedIn
 
-   cd futuristic-fashion-shop
-Install dependenciesInstall dependencies
+💻 GitHub
+
+⭐ Feel free to star this repo if you found it helpful!
+
+---
+
+## ✅ Next Steps
+
+- [ ] Add this updated `README.md` to your repo root.
+- [ ] Replace the image path (`screenshot.png`) with a real screenshot.
+- [ ] Update the LinkedIn link with your actual profile URL.
+
+Let me know if you want help writing the `products.json` from your real catalog, or adding a second API route (like `/api/cart`) for further full-stack functionality.
+
+cd FUTURE_FS_02
+
