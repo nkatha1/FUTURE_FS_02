@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Streetwear Jacket",
+    "price": 49.99,
+    "image": "https://via.placeholder.com/300x300?text=Jacket"
+  },
+  {
+    "id": 2,
+    "name": "Retro Sneakers",
+    "price": 89.99,
+    "image": "https://via.placeholder.com/300x300?text=Sneakers"
+  },
+  {
+    "id": 3,
+    "name": "Minimalist Hoodie",
+    "price": 39.99,
+    "image": "https://via.placeholder.com/300x300?text=Hoodie"
+  }
+]
